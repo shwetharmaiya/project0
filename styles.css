@@ -1,3 +1,19 @@
+.container {
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 1000px;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.flex > div,
+.flex > ul {
+    flex: 1;
+}
+
 body {
     margin-top: 0px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -33,6 +49,8 @@ nav {
     height: 60px;
     width: 1000px;
     margin: 0 auto 20px;
+    align-items: center;
+    justify-content: space-between;
 }
 
 
@@ -56,6 +74,45 @@ nav>ul>li a {
         font-weight: bold;
 }
 
-.completed {
+td.completed {
     color : green;
 }
+
+td.partial { 
+    color: orange;
+}
+
+td.incomplete { 
+    color: red;
+}
+
+@media screen and (max-width: 500px) {
+    body {
+            text-align: center;
+    }
+
+    nav.flex {
+            flex-direction: row-reverse;
+    }
+    .flex {
+        flex-direction: column;
+    }
+    footer ul {
+        padding: 0;
+        width: 100%;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+}
+@media screen and (min-width: 500px) {
+  
+    .flex {
+      flex-wrap: wrap;
+    }
+  
+  
+  }
+  

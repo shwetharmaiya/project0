@@ -9,10 +9,11 @@
         <link rel="icon" type="image/png" href="favicon.png">
         <!--Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a> -->
         <link rel = "stylesheet" type = "text/css" href = "styles.css" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
     <body>
         <header id="mainheader">
-            <nav class="flex"> 
+            <nav> 
                 <ul>            
                      <li><img src="images/signs.svg" height="55" /></li> 
                     <!--  <div>Icons made by <a href="https://www.flaticon.com/authors/pixel-perfect" title="Pixel perfect">Pixel perfect</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div> -->
@@ -24,9 +25,9 @@
                 </ul>
             </nav>
         </header>
-        <div class="container" style="width:1000px; margin-left: auto; margin-right: auto;">
-            <aside class="flex" id="leftmenu">
-              <a class="flex" href="index.html"> <img src="images/arebetta.png"  /> </a>
+        <div style="width:1000px; margin-left: auto; margin-right: auto;">
+            <aside id="leftmenu">
+              <a href="index.html"> <img src="images/arebetta.png"  /> </a>
               <header>
                  <h4 style="text-align: left;"> 
                      Browse information on courses
@@ -41,12 +42,12 @@
               
               <input type="search" class="searchbox" placeholder="Search the list of courses">
             </aside>
-            <main class="flex" id="main">
-                <article class="flex">
+            <main id="main">
+                <article >
                   <header>
                       <h3 style="font-size:25px;color:#a593c2">Welcome to the world of knowledge</h3>
                       </header>
-                      <figure class="flex"> 
+                      <figure> 
                         <img src="images/MOOC.jpg" width="49%" alt="Leanring"/><img src="images/books.jpg" width="50%" alt="Learning"/> 
                           <figcaption>Information on MOOCs</figcaption>
                         </figure>
@@ -61,6 +62,9 @@
                       <p>
                           Please click on <b>"Courses"</b>.
                       </p>
+                      <div class="alert alert-primary" role="alert">
+                        These courses will blow your mind away.
+                      </div>
 
                       <p> 
                           The courses range from a variety of topics. The topics include:

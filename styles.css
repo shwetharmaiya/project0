@@ -86,7 +86,7 @@ td.incomplete {
     color: red;
 }
 
-@media screen and (max-width: 500px) {
+/** @media screen and (max-width: 500px) {
     body {
             text-align: center;
     }
@@ -115,4 +115,4 @@ td.incomplete {
   
   
   }
-  
+  */

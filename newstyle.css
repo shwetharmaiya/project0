@@ -1,0 +1,17 @@
+#mainheader {
+  background-color: #2b9eab; }
+
+table.hl {
+  margin: 2em 0; }
+  table.hl td.ln {
+    text-align: right; }
+
+li {
+  font-family: serif;
+  font-weight: bold;
+  font-size: 1.3em; }
+
+td.completed, td.fullycomplete {
+  color: green; }
+
+/*# sourceMappingURL=newstyle.css.map */

@@ -3,6 +3,8 @@
     margin: 0 auto;
     max-width: 100%;
     width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
 }
 .flex {
     display: flex;
@@ -86,12 +88,12 @@ td.incomplete {
     color: red;
 }
 
-/** @media screen and (max-width: 500px) {
+@media screen and (max-width: 500px) {
     body {
-            text-align: center;
+            background-color: paleturquoise;
     }
 
-    nav.flex {
+/*    nav.flex {
             flex-direction: row-reverse;
     }
     .flex {
@@ -105,14 +107,5 @@ td.incomplete {
     footer p {
         text-align: center;
     }
-
+*/
 }
-@media screen and (min-width: 500px) {
-  
-    .flex {
-      flex-wrap: wrap;
-    }
-  
-  
-  }
-  */

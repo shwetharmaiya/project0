@@ -103,6 +103,11 @@ nav {
     height: 120px;
     width: 100%;
 }
+#main {
+    float: left;
+    width: 100%;
+    margin-bottom: 20px;
+    }
 /*    nav.flex {
             flex-direction: row-reverse;
     }

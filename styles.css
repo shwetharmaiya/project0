@@ -108,6 +108,12 @@ nav {
     width: 100%;
     margin-bottom: 20px;
     }
+    .flex-table{ 
+        float: left;
+        width: 25%;
+        
+        }
+  
 /*    nav.flex {
             flex-direction: row-reverse;
     }

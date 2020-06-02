@@ -118,6 +118,9 @@ nav {
         display: block;
     }
 
+    table {
+        border-collapse: collapse;
+    }
     /* Hide table headers (but not display: none;, for accessibility) */
     thead tr {
         position: absolute;
@@ -127,6 +130,7 @@ nav {
 
 tr {
   margin: 0 0 1rem 0;
+
 }
   
 tr:nth-child(odd) {
@@ -135,23 +139,24 @@ tr:nth-child(odd) {
 
     td {
         /* Behave  like a "row" */
-        border: none;
+        border: 1px solid #eee;
         border-bottom: 1px solid #eee;
         position: relative;
         padding-left: 50%;
+        
     }
 
     td:before {
         /* Now like a table header */
         position: absolute;
         /* Top/left values mimic padding */
-        top: 0;
+        top: 6px;
         left: 6px;
         width: 45%;
         padding-right: 10px;
         white-space: nowrap;
     }
-
+    
     td:nth-of-type(1):before { content: "Serial Number"; }
     td:nth-of-type(2):before { content: "Course Name"; }
     td:nth-of-type(3):before { content: "University"; }

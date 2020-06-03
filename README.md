@@ -13,3 +13,6 @@ about.html - It has a short description about me.
 technology.html - It has all the technology courses taken by me.
 finance.html - It has all the finance courses taken by me.
 psychology.html - It has all the psychology courses taken by me.
+
+I have used list, tables, bootstrap columns, bootstrap alert and table.
+I have also made my web pages mobile responsive. The nav, lists, tables align properly for mobile responsive design.
